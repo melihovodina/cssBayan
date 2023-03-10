@@ -1,1 +1,53 @@
-JFJFJF
+body, html {
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+    color: darkblue;
+    overflow-y: visible;
+    font-family: sans-serif;
+    line-height: 1.8;
+}
+
+.mem_1_kartinka {
+    position: relative;
+    left: 30%;
+}
+
+.mem_1_text {
+    position: relative;
+    left: 30%;
+}
+
+.mem_2_kartinka {
+    position: relative;
+    left: 30%;
+}
+
+.mem_2_text {
+    position: relative;
+    left: 30%;
+}
+
+.mem_3_kartinka {
+    position: relative;
+    left: 30%;
+}
+
+.mem_3_text {
+    position: relative;
+    left: 30%;
+}
+
+.mem_4_kartinka {
+    position: relative;
+    left: 30%;
+}
+
+.mem_4_text {
+    position: relative;
+    left: 30%;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+  }
