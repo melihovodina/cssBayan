@@ -1,53 +1,121 @@
-body, html {
-    width: 100%;
-    height: 100%;
-    background-color: antiquewhite;
+@media (min-width: 0px) and (max-width: 320px) {
+    body, html {
+        width: auto;
+        height: auto;
+        background-color: darkslateblue;
+        color: whitesmoke;
+        overflow-y: visible;
+        font-family: sans-serif;
+        line-height: 1.8;
+    }
+    
+}
+
+@media (min-width: 320px) and (max-width: 820px) {
+    body, html {
+        width: auto;
+        height: auto;
+        background-color: darkgray;
+        color: orangered;
+        overflow-y: visible;
+        font-family: sans-serif;
+        line-height: 1.8;
+    }
+}
+
+@media (min-width: 821px) and (max-width: 1920px) {
+    body, html {
+        width: auto;
+        height: auto;
+        background-color: antiquewhite;
+        color: darkblue;
+        overflow-y: visible;
+        font-family: sans-serif;
+        line-height: 1.8;
+    }
+}
+
+.kast_mem1 {
+    display: block;
+    text-align: center;
+}
+
+.mem1 {
     color: darkblue;
-    overflow-y: visible;
-    font-family: sans-serif;
-    line-height: 1.8;
+    text-decoration: none;
 }
 
-.mem_1_kartinka {
+.mem1 span{
+    visibility: hidden;
+    position: absolute;
+}
+ 
+.mem1:hover span{
+    visibility: visible;
     position: relative;
-    left: 30%;
+    left: 0%;
+    top: 20%
 }
 
-.mem_1_text {
-    position: relative;
-    left: 30%;
+.kast_mem2 {
+    display: block;
+    text-align: center;
 }
 
-.mem_2_kartinka {
-    position: relative;
-    left: 30%;
+.mem2 {
+    color: darkblue;
+    text-decoration: none;
 }
 
-.mem_2_text {
-    position: relative;
-    left: 30%;
+.mem2 span{
+    visibility: hidden;
+    position: absolute;
+    left: 0%;
+    top: 20%;
+}
+ 
+.mem2:hover span{
+visibility: visible;
 }
 
-.mem_3_kartinka {
-    position: relative;
-    left: 30%;
+.kast_mem3 {
+    display: block;
+    text-align: center;
 }
 
-.mem_3_text {
-    position: relative;
-    left: 30%;
+.mem3 {
+    color: darkblue;
+    text-decoration: none;
 }
 
-.mem_4_kartinka {
-    position: relative;
-    left: 30%;
+.mem3 span{
+    visibility: hidden;
+    position: absolute;
+    left: 0%;
+    top: 20%;
+}
+ 
+.mem3:hover span{
+visibility: visible;
 }
 
-.mem_4_text {
-    position: relative;
-    left: 30%;
+.kast_mem4 {
+    display: block;
+    text-align: center;
 }
 
-::-webkit-scrollbar {
-    width: 0;
-  }
+.mem4 {
+    color: darkblue;
+    text-decoration: none;
+}
+
+.mem4 span{
+    visibility: hidden;
+    position: absolute;
+    left: 0%;
+    top: 20%;
+}
+ 
+.mem4:hover span{
+visibility: visible;
+}
