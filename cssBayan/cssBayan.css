@@ -76,6 +76,7 @@
  
 .mem2:hover span{
 visibility: visible;
+position: relative;
 }
 
 .kast_mem3 {
@@ -97,6 +98,7 @@ visibility: visible;
  
 .mem3:hover span{
 visibility: visible;
+position: relative;
 }
 
 .kast_mem4 {
@@ -117,5 +119,5 @@ visibility: visible;
 }
  
 .mem4:hover span{
-visibility: visible;
+visibility: visible; position: relative;
 }
