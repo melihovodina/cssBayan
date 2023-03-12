@@ -1,123 +1,62 @@
+body, html {
+    width: auto;
+    height: auto;
+    background-color: antiquewhite;
+    color: darkblue;
+    font-family: sans-serif;
+    line-height: 1.8;
+}
+
 @media (min-width: 0px) and (max-width: 320px) {
-    body, html {
-        width: auto;
-        height: auto;
-        background-color: darkslateblue;
-        color: whitesmoke;
-        overflow-y: visible;
-        font-family: sans-serif;
-        line-height: 1.8;
+    body {
+        font-size: 0.5rem;
     }
     
 }
 
 @media (min-width: 320px) and (max-width: 820px) {
-    body, html {
-        width: auto;
-        height: auto;
-        background-color: darkgray;
-        color: orangered;
-        overflow-y: visible;
-        font-family: sans-serif;
-        line-height: 1.8;
+    body {
+        font-size: 1rem;
     }
 }
 
 @media (min-width: 821px) and (max-width: 1920px) {
-    body, html {
-        width: auto;
-        height: auto;
-        background-color: antiquewhite;
-        color: darkblue;
-        overflow-y: visible;
-        font-family: sans-serif;
-        line-height: 1.8;
+    body {
+        font-size: 1.5rem;
     }
 }
 
-.kast_mem1 {
+.memes {
+    list-style-type: none;
+}
+
+.kast_mem{
     display: block;
     text-align: center;
 }
 
-.mem1 {
+.text {
     color: darkblue;
     text-decoration: none;
 }
 
-.mem1 span{
-    visibility: hidden;
-    position: absolute;
-}
- 
-.mem1:hover span{
-    visibility: visible;
-    position: relative;
-    left: 0%;
-    top: 20%
+.kartinka{
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
 }
 
-.kast_mem2 {
+.imi{
     display: block;
-    text-align: center;
-}
-
-.mem2 {
-    color: darkblue;
-    text-decoration: none;
-}
-
-.mem2 span{
-    visibility: hidden;
-    position: absolute;
-    left: 0%;
-    top: 20%;
+    margin-left: auto;
+    margin-right: auto;
 }
  
-.mem2:hover span{
-visibility: visible;
-position: relative;
+.rad:checked ~ .l_mem .kartinka {
+    max-height: 100vh;
+    transition: 0.5s ease-in-out;
 }
 
-.kast_mem3 {
-    display: block;
-    text-align: center;
-}
-
-.mem3 {
-    color: darkblue;
-    text-decoration: none;
-}
-
-.mem3 span{
-    visibility: hidden;
-    position: absolute;
-    left: 0%;
-    top: 20%;
-}
- 
-.mem3:hover span{
-visibility: visible;
-position: relative;
-}
-
-.kast_mem4 {
-    display: block;
-    text-align: center;
-}
-
-.mem4 {
-    color: darkblue;
-    text-decoration: none;
-}
-
-.mem4 span{
-    visibility: hidden;
-    position: absolute;
-    left: 0%;
-    top: 20%;
-}
- 
-.mem4:hover span{
-visibility: visible; position: relative;
+.rad:active ~ .l_mem .imi {
+    opacity: 0.6;
 }
